@@ -1,0 +1,59 @@
+.deserto {
+    width: 500px;
+    height: 150px;
+    position: relative;
+}
+
+.chao {
+    width: 500px;
+    height: 16px;
+    background-image: url(sprites.png);
+    background-position-y: -53px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.dino {
+    width: 45px;
+    height: 45px;
+    background-image: url(sprites.png);
+    background-position-y: -3px;
+    position: absolute;
+    z-index: 2;
+}
+
+.nuvem {
+    width: 47px;
+    height: 17px;
+    background-image: url(sprites.png);
+    background-position: -86px 2px;
+    position: absolute;
+    z-index: 1;
+}
+
+.cacto{
+    width: 19px;
+    height: 38px;
+    background-image: url(sprites.png);
+    background-position: -226px 2px;
+    position: absolute;
+    z-index: 2;
+}
+
+.bigCacto{
+    width: 27px;
+    height: 52px;
+    background-image: url(sprites.png);
+    background-position: -330px 2px;
+    position: absolute;
+    z-index: 2;
+}
+
+.passaro{
+    width: 48px;
+    height: 33px;
+    background-image: url(sprites.png);
+    background-position: -178px 2px;
+    position: absolute;
+    z-index: 2;
+}
